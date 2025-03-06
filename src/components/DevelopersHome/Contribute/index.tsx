@@ -66,10 +66,11 @@ function Index() {
     >
       <div id="features" />
       <motion.p variants={transitions.item} className={styles.title}>
-        Contribute to the <br /> Internet Computer
+        Contribuir con <br /> Internet Computer
       </motion.p>
       <motion.p variants={transitions.item} className={styles.subtitle}>
-        Take a deeper dive into further resources in the developer ecosystem.
+        Explora más a fondo los recursos adicionales del ecosistema de
+        desarrolladores.
       </motion.p>
       <motion.div
         className={styles.scrollContainer}
@@ -103,14 +104,15 @@ function Index() {
             variants={transitions.item}
             className={styles.callToActionTitle}
           >
-            Help us make the docs better
+            Ayúdanos a mejorar la documentación.
           </motion.p>
           <motion.p
             variants={transitions.item}
             className={styles.callToActionText}
           >
-            These docs are a community effort. Create a PR if you see mistakes,
-            room for improvement, or new opportunities to help IC developers.
+            Esta documentación es un esfuerzo de la comunidad. Crea un PR si ves
+            errores, oportunidades de mejora o nuevas formas de ayudar a los
+            desarrolladores de IC.
           </motion.p>
           <motion.div
             variants={transitions.item}
@@ -120,7 +122,7 @@ function Index() {
               className={styles.actionButton}
               to="https://github.com/dfinity/portal"
             >
-              CONTRIBUTE
+              CONTRIBUIR
             </Link>
           </motion.div>
         </div>
@@ -135,7 +137,7 @@ function Index() {
         <img
           className={styles.mobileContributeGraphic}
           src={contribute}
-          alt=""
+          alt="Contribuir"
         />
       </motion.div>
     </motion.div>
